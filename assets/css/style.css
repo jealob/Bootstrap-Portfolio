@@ -129,6 +129,26 @@ body {
     min-height: calc(100vh - 70px);
   }
 
+  /* Connect with me  */
+
+  .connect-row {
+    width:300px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  #github:hover {
+    content:url("../images/github_hover.png");
+  }
+  
+  #stackoverflow:hover {
+    content:url("../images/stackoverflow_hover.png");
+  }
+  
+  #linkedin:hover {
+    content:url("../images/linkedin_hover.png");
+  }
+  
   /* Portfolio Page */
   
   .work {
