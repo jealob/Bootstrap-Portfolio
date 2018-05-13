@@ -19,7 +19,7 @@ body {
 
   .fixed-top{
     transition: all 0.7s ease;
-    padding-top: 3rem;
+    padding-top: 1px !important;
 }
 .name{
   text-align:left;
