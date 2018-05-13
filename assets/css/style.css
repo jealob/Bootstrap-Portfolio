@@ -85,8 +85,7 @@ body {
   
   .about-me{
     color: #fff;
-    background:#716e6f;
-    /* margin:0; */
+    background:#7f7871;
   }
   .about-me a{
     color: #444;
@@ -107,15 +106,6 @@ body {
     background: #a9a9a9;
   }
 
-  #skill {
-    background: purple;
-  }
-
-  #hire {
-    color:#fff;
-    background: url("../images/background.jpg");
-  }
-  
   hire ul.hire-info {
     padding: 0;
     display: inline-block;
@@ -127,7 +117,7 @@ body {
 ==================================================*/
 
 footer {
-  background-color: #0d0c0c;
+  background-color:#343a40;
   text-align: center;
   padding: 15px 0 0 0;
 }
@@ -205,31 +195,3 @@ text-decoration: none;
     margin:0;
   }
 }
-  
-  /* .contact-button {
-    text-align: center;
-} */
-/* }
-
-
-@media (max-width: 991px){
-  .contact-button {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin-top: 60px;
-  }
-}  
-
-
-@media (min-width: 992px){
-.col-md-offset-6 {
-  margin-left: 50%;
-  }
-}
-
-@media (min-width: 992px){
-.col-md-6 {
-  width: 50%;
-  }
-} */
