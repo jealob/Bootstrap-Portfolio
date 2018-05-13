@@ -50,9 +50,10 @@ body {
     margin: 0 0 30px;
     width: 100%; 
     color: #fff;
-    padding:20px;
   }
-  
+  .fixed-top{
+    padding-top:3px;
+  }
   section {
     padding:30px;
   }
@@ -72,8 +73,6 @@ body {
 
   #name {
     font-family: 'Kurale', serif;
-    font-weight: bolder;
-    font-size: 30px;
     color:#fff;
   }
 
@@ -137,6 +136,7 @@ footer .social-icon {
   border: none;
   box-shadow: none;
   display: block;
+  margin: 0 auto;
 
 }
 footer .social-icon:hover {
@@ -150,16 +150,16 @@ footer .rights p {
   font-weight: 400;
   background: #000;
   padding: 30px 0;
-  margin: 80px 0 0 0;
+  margin: 1px 0 0 0;
   font-size: 14px;
 font-family: 'Raleway', sans-serif;
 }
-footer h3 {
+footer h3, footer h6 {
   margin: 0 auto;
   font-family: 'Raleway', sans-serif;
-font-size:18px;
-color:#dde5ee;
-margin-bottom:10px;
+  font-size:18px;
+  color:#dde5ee;
+  margin-bottom:10px;
 }
 
 footer ul.footer-info {
