@@ -4,45 +4,19 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: #fff;
-    background: url("../images/background.jpg");
-    height:50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    
   }
   
   * {
     box-sizing: border-box;
     margin: 0;
   }
-  
-    /* For sticky footer styling; code snippets from 
-  https://css-tricks.com/snippets/css/sticky-footer/*/
+
   html,
   body {
     height: 100%;
   }
-  
-  .wrapper {
-    height: auto !important;
-    height: 100%;
-    min-height: 100%;
-    margin: 0 auto -105px;
-  }
-  
-  footer,
-  .push {
-    height: 105px;
-  }
-  
-  /* End sticky footer styling */
-  
-  /* General styling */
-  #wrapper {
-      width: 100%;
-      /* max-width:960px; */
-      margin: 0 auto;
-  }
+
   .fixed-top{
     transition: all 0.7s ease;
     padding-top: 3rem;
@@ -50,10 +24,16 @@ body {
 .name{
   text-align:left;
   margin-left:50%;
+  padding-top:250px;
 }
 
 .container-fluid{
   padding:0;
+  height: 100%;
+  background: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
   h1 {
     font-size: 30px;
@@ -76,22 +56,6 @@ body {
   section {
     padding:30px;
   }
-  .sidebar {
-    padding:30px;
-    background:#fff;
-    border: 1px solid #ddd;
-    margin:8px;
-  }
-
-  #logo {
-    float: left;
-    font-family: 'Kurale', serif;
-    font-size: 20px;
-    font-weight: 100;
-    line-height: 18px;
-    color: #fff;
-    text-align: center;
-  }
   
  .nav-item {
     line-height: 18px;
@@ -99,126 +63,6 @@ body {
     color:#999;
   }
   
-  
-  .nav-item:first-child {
-    border-left: 0 none;
-  }
-
-  /* Footer */
-  
-  footer {
-    margin-top:30px;
-    padding: 30px 0;
-    font-size:12px;
-    color:#ccc;
-    text-align:center;
-    background:#666;
-    border-top: 8px solid #4aaaa5;
-    height: 80px;
-  }
-
-  #connectMe{
-    text-align: center;
-  }  
-  /* Main */
-  
-  /*Padding pushes main container out from
-   behind .masterhead which z-index is 99 */
-  #main-container {
-    padding-top: 130px;
-    min-height: calc(100vh - 70px);
-  }
-
-  /* Portfolio Page */
-  
-  .work {
-    margin: 20px 10px 25px;
-    overflow:auto;
-    padding:0;
-  }
-  
-  
-  .work img {
-    opacity:0.8;
-  }
-  
-  .work h3{
-    position: absolute;
-    bottom: 20px;
-    width:100%;
-    padding: 15px;
-    margin-bottom: 0;
-    font-weight: 300;
-    line-height: 30px;
-    color:#fff;
-    text-align: center;
-    background: #4aaaa5;
-  }
-  
-  .auth-image{
-    border-radius:10px;
-    float:left;
-    width: 400px;
-    height: auto;
-    margin-top: 10px;
-    margin-right: 25px;
-  }
-  
-  /* Contact Page */
-    #contact-form  ul{
-    margin-bottom: 20px;
-  }
-  
-  #contact-form  li{
-    margin-bottom: 10px;
-  }
-  
-  label,
-  input[type=text],
-  input[type=email],
-  textarea {/*No other element block go beside it */  
-    display: block; 
-    width: 100%;
-  }
-  
-  input[type=text],
-  input[type=email],
-  textarea {
-    height: 35px;
-    padding: 0 10px;
-    font-size: 14px;
-    border:1px solid #ddd;
-  }
-  
-  textarea {
-    height: 200px;
-  }
-  
-  input[type=submit] {
-    padding: 10px 30px;
-    font-size: 18px;
-    color: #fff;
-    cursor: pointer;
-    background: #4aaaa5;
-    border: 0 none;
-  }
-  
-   
-  /* start hover styling */
-  input[type=submit]:hover {
-    background: #5e7f7e;
-  }
-  
-  .work img:hover {
-    opacity: 1;
-  }
-
-  .work h3:hover {
-    color: #fff;
-    background: #5e7f7e;
-  }
-  
-  /* End hover styling */
   #welcome{
     width:100%;
     height: 500px;
@@ -233,26 +77,134 @@ body {
     color:#fff;
   }
 
-  .about{
-    background:#fff;
-    margin:0;
-  }
 
-  h2 {
+  h2,h4 {
     font-family: 'Kurale', serif;
     font-weight: bolder;
     color:#000;
   }
+  
+  .about-me{
+    color: #fff;
+    background:#716e6f;
+    /* margin:0; */
+  }
+  .about-me a{
+    color: #444;
+  }
+.about-me a:hover{
+  color: #000;
+  text-decoration: none;
+}
+  #skills {
+    background: #787fa5;
+  }
 
+  #portfolio {
+    background: #444b64;
+  }
+
+  #contact {
+    background: #a9a9a9;
+  }
+
+  #skill {
+    background: purple;
+  }
+
+  #hire {
+    color:#fff;
+    background: url("../images/background.jpg");
+  }
+  
+  hire ul.hire-info {
+    padding: 0;
+    display: inline-block;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.5);
+}
+
+ /*================================================
+        Footer
+==================================================*/
+
+footer {
+  background-color: #0d0c0c;
+  text-align: center;
+  padding: 15px 0 0 0;
+}
+
+footer .social-icon {
+  border: none;
+  box-shadow: none;
+  display: block;
+
+}
+footer .social-icon:hover {
+  box-shadow: none;
+}
+footer .rights {
+  position: relative;
+}
+footer .rights p {
+  color: #8e8e8e;
+  font-weight: 400;
+  background: #000;
+  padding: 30px 0;
+  margin: 80px 0 0 0;
+  font-size: 14px;
+font-family: 'Raleway', sans-serif;
+}
+footer h3 {
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+font-size:18px;
+color:#dde5ee;
+margin-bottom:10px;
+}
+
+footer ul.footer-info {
+margin: 0 auto;
+padding:0;
+display: block;
+border-bottom: 1px solid rgba(51, 51, 51, 0.5);
+}
+
+footer ul.footer-info li {
+margin-bottom: 5px;
+ letter-spacing: 1px;
+ color: #8f8f8f;
+ font-size: 14px;
+text-align:center;
+display: inline-block;
+font-family: 'Raleway', sans-serif;
+}
+
+footer ul.footer-info li i {
+ color: #4183D7 ;
+ font-size: 14px;
+ padding-right: 10px;
+ width:100%;
+}
+
+#email{
+  color: #8f8f8f;
+}
+a:hover{
+text-decoration: none;
+}
   /* Media Queries */
    @media (max-width: 991px){
   #master-head {
       text-align: center;
   }
+}
+
+@media (max-width: 764px){
   .name{
     text-align: center;
-    margin-left:50%;
+    margin:0;
   }
+}
   
   /* .contact-button {
     text-align: center;
